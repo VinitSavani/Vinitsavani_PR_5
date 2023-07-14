@@ -12,7 +12,7 @@ void main()
 	
 	int x[a][b];
 	
-	Printf("Enter array's elements :- ");
+	printf("Enter array's elements :- \n");
 	
 	for(i=0;i<a;i++)
 	{
@@ -34,5 +34,5 @@ void main()
 		}
 		
 	}
-    	printf("Largest number is := %d ",max)
+    	printf("Largest number is := %d ",max);
 }
