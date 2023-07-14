@@ -2,7 +2,7 @@
 
 void main()
 {
-	int a,b,i,j;
+	int a,b,i,j,max = 0;
 	
 	printf("Enter number of rows :- ");
 	scanf("%d",&a);
@@ -27,7 +27,12 @@ void main()
 	{
 		for(j=0;j<b;j++)
 		{
-			
+			if(x[i][j]>max)
+			{
+				max = x[i][j];
+			}
 		}
+		
 	}
+    	printf("Largest number is := %d ",max)
 }
